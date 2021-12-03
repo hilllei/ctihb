@@ -1,0 +1,66 @@
+@charset "gb2312";
+
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+::selection{background:#ff5d8f;color:#fff}::-moz-selection{background:#ff5d8f;color:#fff}::-webkit-selection{background:#ff5d8f;color:#fff}
+
+html{-webkit-font-smoothing:antialiased;-webkit-overflow-scrolling:touch;}
+html,body{margin:0;padding:0;}
+body{color:#868686;font-size:14px;font-family:"arial","Î¢ÈíÑÅºÚ";background:#f1f1f1;}
+a{text-decoration:none;color:#868686;font-size:14px;font-family:"arial","Î¢ÈíÑÅºÚ"; cursor:pointer;}
+img{border:0;}
+li{list-style:none}
+ol,ul{list-style:none;}
+input{outline:0;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+
+.shekeco { width:100%; height:60px; margin:0 auto; background:#161616;}
+.sheke_two{width:100%; height:50px; line-height:50px; filter:alpha(Opacity=93);-moz-opacity:.93;opacity:.93; margin:0 auto; background:#0b0b0b; box-shadow:0 1px 3px rgba(0,0,0,0.3);border-bottom:1px solid #000;}
+.sheke_to { width:1200px; margin:0 auto;}
+.sheke_top { width:1180px; margin:0 auto;}
+.sheke_one { width:1180px; height:10px; float:left;}
+.sheke_logo { width:230px; height:60px; float:left;}
+.sheke_logo a{display:block;height:60px;background:url(images/logo.png) no-repeat;}
+.sheke_mini { float:left; width:152px;}
+.sheke_mini a { float:left;}
+
+
+.sheke_id {  float:right; height:60px; line-height:60px;}
+.sheke_id a { margin-left:20px; float:left; color:#b2b1b1}
+.sheke_id a:hover { color:#fff}
+
+
+
+.container{ width: 1200px; margin: 0 auto; padding-top:35px;} 
+
+.sheke_w1165 { width:1165px; margin:0 auto;}
+.sheke_w1165 ul { padding-top:40px;}
+
+
+.tulist { margin-bottom:20px; margin-top:10px; float:left; width:100%; border-radius:5px; background:#ffffff;} 
+.tulist h1 { padding:15px 20px 15px 20px; font-weight:bold; font-size:18px;  color:#ff5d8f; border-bottom:1px solid #F4F4F4; }
+.tulist ul { padding:20px; float:left; }
+.tulist ul li { float:left; } 
+.tulist ul li a { font-size:14px;float:left;   width:192px; padding:10px; line-height:30px;}
+.tulist ul li a i { float:left; width:30px; height:30px; background-size:30px; border-radius:5px; background-position:center; background-repeat:no-repeat; margin-right:10px;}
+.tulist ul li a span { font-size:12px; float:left }
+.tulist ul li a:hover {background:#f8f8f8; color:#ff5d8f; font-weight:bold; border-radius:5px;   width:192px; padding:10px; line-height:30px; }
+
+.white_content { 
+    display: none; 
+    position: absolute; 
+    top: 30%; 
+    left: 30%; 
+    width: 300px; 
+    height: 560px;  
+    padding: 20px; 
+    border: 10px solid orange; 
+    background-color: white; 
+    z-index:1002; 
+    overflow: auto; 
+        } 
